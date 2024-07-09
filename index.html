@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfólio - Evandro Menschaid</title>
+  </head>
+  <body>
+    <!--Header-->
+    <section id="header">
+      <a class="header-title" href="/">
+        <h1>Evandro Menschaid</h1>
+      </a>
+
+      <nav class="navbar">
+        <button class="menu-hamburguer"></button>
+        <ul class="navbar-links">
+          <li><a href="#person">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contacts">Contato</a></li>
+        </ul>
+      </nav>
+    </section>
+    <!--End header-->
+
+    <!--Person-->
+    <section id="person">
+      <div class="person-content">
+        <div class="person-name">
+          <h1>Olá,<span></span></h1>
+          <h1>Meu nome é <span></span></h1>
+          <h1>Evandro Menschaid <span></span></h1>
+        </div>
+        <div class="stacks-content">
+          <h3>Techs :</h3>
+
+          <ul class="stacks">
+            <li>
+              <div data="HTML">
+                <img src="svg/html.svg" alt="html-icon" />
+              </div>
+            </li>
+
+            <li>
+              <div data="CSS">
+                <img src="svg/css.svg" alt="css-icon" />
+              </div>
+            </li>
+
+            <li>
+              <div data="JS">
+                <img src="svg/js.svg" alt="js-icon" />
+              </div>
+            </li>
+
+            <li>
+              <div data="Java">
+                <img src="svg/java.svg" alt="java-icon" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="person-background">
+        <div class="wrapper-profile-photo">
+          <img class="profile-photo" src="img/Foto.png" alt="Evandro" />
+        </div>
+
+        <div class="links">
+          <a href="https://github.com/vandinho01" target="_blank">
+            <img src="svg/logo-github.svg" alt="github" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/evandro-menschaid/"
+            target="_blank"
+          >
+            <img src="svg/logo-linkedin.svg" alt="linkedin" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--End Person-->
+
+    <!--About-->
+    <section id="about">
+      <div class="background-about">
+        <div class="img-wrapper">
+          <img src="img/img.2.jpg" alt="img2-notebook" />
+        </div>
+      </div>
+
+      <div class="box-about">
+        <div class="section-subtitle">
+          <h2>
+            <p>💻</p>
+            <p><span>Desenvolvedor</span> Front End</p>
+          </h2>
+        </div>
+
+        <h3>
+          Sou um estudante de tecnologia com experiências em
+          <p>HTML, CSS, JavaScript e Java</p>
+        </h3>
+
+        <h4>
+          Meu nome é Evandro Menschaid, tenho 20 anos. Desde que me interessei
+          na área da programação, estudo diariamente para conseguir a minha
+          primeira oportunidade. Há 1 ano venho desenvolvendo diversos projetos
+          para colocar em prática todo o meu conhecimento e tenho a certeza que
+          estou pronto para somar na sua equipe de programadores. Tenho
+          facilidade de aprendizado, boa comunicação e a todo momento busco me
+          aprimorar cada vez mais.
+        </h4>
+
+        <!-- <div class="button-cta">
+      <a href="public/document/" download="CV-Evandro-Menschaid" aria-label="Baixar currículo Evandro">
+        Currículo
+      </a>
+    </div> -->
+      </div>
+    </section>
+    <!--End About-->
+
+    <!--Projects-->
+    <section id="projects">
+      <div class="projects-title">
+        <h2>Projetos 🧩</h2>
+      </div>
+
+      <div class="container-projects">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- card1 - omnifood-->
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="https://omnifood-projeto.netlify.app/" target="_blank">
+                  <img src="img/Omnifood.png" alt="Omnifood" />
+                </a>
+              </div>
+
+              <span>Omnifood</span>
+
+              <p>Projeto de entregas de comidas saudaveis</p>
+
+              <div class="cta-project">
+                <a
+                  href="https://github.com/vandinho01/Projeto-omnifood"
+                  target="_blank"
+                  >Código <i class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://omnifood-projeto.netlify.app/" target="_blank"
+                  >Site <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Card Ccal -->
+
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="https://ccalcalcados.com.br/" target="_blank">
+                  <img src="img/ccal.jpg" alt="Relogio Digital" />
+                </a>
+              </div>
+
+              <span>Ccal Calçados</span>
+
+              <p>Loja online criada para a Ccal Calçados</p>
+
+              <div class="cta-project">
+                <a href="https://ccalcalcados.com.br/" target="_blank"
+                  >Site <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- GOTA DO Himalaia -->
+
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="https://gotadohimalaia.netlify.app/" target="_blank">
+                  <img src="img/Gota.png" alt="Gota do Himalaia" />
+                </a>
+              </div>
+
+              <span>Gota do Himalaia</span>
+
+              <p>
+                Site feito para um afiliado do produto. O site ja gera vendas no
+                momento.
+              </p>
+
+              <div class="cta-project">
+                <a
+                  href="https://github.com/vandinho01/RelogioDigital"
+                  target="_blank"
+                  >Código <i class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://gotadohimalaia.netlify.app/" target="_blank"
+                  >Site <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Card 2 - relogio -->
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="https://relogio-wacth.netlify.app" target="_blank">
+                  <img src="img/Relogio.png" alt="Relogio Digital" />
+                </a>
+              </div>
+
+              <span>Relógio</span>
+
+              <p>Projeto de um relógio digital</p>
+
+              <div class="cta-project">
+                <a
+                  href="https://github.com/vandinho01/RelogioDigital"
+                  target="_blank"
+                  >Código <i class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://relogio-wacth.netlify.app" target="_blank"
+                  >Site <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Card 3  - loja de cadeiras-->
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="https://shop-chairs.netlify.app" target="_blank">
+                  <img src="img/cadeiras.png" alt="Loja de cadeiras" />
+                </a>
+              </div>
+
+              <span>Shop Chairs</span>
+
+              <p>Projeto de uma loja de cadeiras</p>
+
+              <div class="cta-project">
+                <a
+                  href="https://github.com/vandinho01/Projeto-Cadeira"
+                  target="_blank"
+                  >Código <i class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://shop-chairs.netlify.app" target="_blank"
+                  >Site <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <!-- Card 4 - Gerador de Senha -->
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="https://generatorsenha.netlify.app" target="_blank">
+                  <img src="img/gerador.png" alt="Gerador de Senha" />
+                </a>
+              </div>
+
+              <span>Gerador de Senha</span>
+
+              <p>Projeto de um gerador de senha</p>
+
+              <div class="cta-project">
+                <a
+                  href="https://github.com/vandinho01/GeradorDeSenha"
+                  target="_blank"
+                  >Código <i class="fa-brands fa-github"></i
+                ></a>
+                <a href="https://generatorsenha.netlify.app" target="_blank"
+                  >Site <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- <div class="swiper-slide card-project">
+          <div class="image-project">
+            <a href="/">
+            <img src="img/Design sem nome (12).png" alt="Omnifood">
+            </a>
+          </div>
+
+        <span>Omnifood</span>
+
+        <p>Projeto de entregas de comidas saudaveis</p>
+
+        <div class="cta-project">
+          <a href="https://github.com/vandinho01/Projeto-omnifood" target="_blank">Código <i class="fa-brands fa-github"></i></a>
+          <a href="https://project-omni.netlify.app/" target="_blank">Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="swiper-slide card-project">
+        <div class="image-project">
+          <a href="/">
+          <img src="img/Design sem nome (12).png" alt="Omnifood">
+          </a>
+        </div>
+
+      <span>Omnifood</span>
+
+      <p>Projeto de entregas de comidas saudaveis</p>
+
+      <div class="cta-project">
+        <a href="https://github.com/vandinho01/Projeto-omnifood" target="_blank">Código <i class="fa-brands fa-github"></i></a>
+        <a href="https://project-omni.netlify.app/" target="_blank">Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div> -->
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="contact-icon-content">
+        <h2>Contato 📞</h2>
+      </div>
+
+      <div class="contact-icons-wrapper">
+        <div class="contact-icon-content">
+          <div class="contact-icon">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </div>
+          <div class="contact-info">
+            <span>Localização</span>
+            <p>Rio Grande do Sul</p>
+          </div>
+        </div>
+
+        <div class="contact-icon-content">
+          <div class="contact-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-info">
+            <span>E-mail</span>
+            <a href="mailto:evandro.menschaid@gmail.com"
+              >evandro.menschaid@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container-footer">
+        <h2>Feito com ❤️ por</h2>
+        <h3>Evandro Menschaid</h3>
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
